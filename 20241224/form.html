@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- name 表單送出後的欄位名稱, 用於後端接收資料 -->
+        <!-- value 表單送出後的欄位值, 用於後端接收資料 -->
+        <!-- 送出格式: account=123 -->
+        <input type="text" name="account" value="123" />
+
+        <!-- 密碼欄位, 輸入的內容不會顯示在網頁上 -->
+        <!-- 明碼傳送，一般搭配 POST 使用 -->
+        <input type="password" name="password" value="456" />
+
+        label
+        <!-- label 標籤, 用於顯示表單欄位名稱 -->
+        <!-- for 與 input 的 id 相同, 用於連結表單欄位名稱與標籤 -->
+        <!-- 不一定要在 form內，也不需要再 input 附近 -->
+        <label for="account">帳號:</label>
+    </body>
+</html>
